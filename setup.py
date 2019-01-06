@@ -12,7 +12,7 @@ setuptools.setup(
     description="A Timer to clock any desired code",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/javatechy/dokr", #TODO
+    url="https://github.com/johnberroa/CodeTimer",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

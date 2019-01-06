@@ -18,7 +18,7 @@ class Timer:
         
         :param name: Name of the timer, optional (use if using multiple timers to know which one is being displayed)
         """
-        self.name = name
+        self.name = "'{}'".format(name)
         self.reset()
 
     def __str__(self):
