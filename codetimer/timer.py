@@ -70,7 +70,7 @@ class Timer:
         # Format the string
         name = " for {}".format(self.name) if self.name is not None else ""
         elapsed = end - self._start_time
-        seconds = round(elapsed, 2)  #TODO: Have a self representation of this so it can be put into formatted strings
+        seconds = round(elapsed, 2)  # TODO: Have a self representation of this so it can be put into formatted strings
         minutes = round(elapsed / 60, 2)
         hours = round(minutes / 60, 2)
         time_string = "Time elapsed{}: {}s ({}m | {}h)".format(name, seconds, minutes, hours)
